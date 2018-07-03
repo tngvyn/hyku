@@ -15,5 +15,13 @@
  *= require peek/views/faraday
  *= require peek/views/performance_bar
  *= require dataTables/bootstrap/3/jquery.dataTables.bootstrap
+ *= require overrides
  *= require_self
  */
+
+
+
+ .btn-primary {
+   background-color: #ff0000;
+   border-color: #265b89;
+ }
