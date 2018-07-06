@@ -18,10 +18,3 @@
  *= require overrides
  *= require_self
  */
-
-
-
- .btn-primary {
-   background-color: #ff0000;
-   border-color: #265b89;
- }

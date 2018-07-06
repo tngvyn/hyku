@@ -34,7 +34,7 @@ module Hyku
       # Do dependency injection after the classes have been loaded.
       # Before moving this here (from an initializer) Devise was raising invalid
       # authenticity token errors.
-      Hyrax::Admin::AppearancesController.form_class = AppearanceForm
+      # Hyrax::Admin::AppearancesController.form_class = AppearanceForm
       Hyrax::FileSetsController.show_presenter = Hyku::FileSetPresenter
     end
 
