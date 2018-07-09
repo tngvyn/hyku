@@ -1,5 +1,5 @@
 .container-fluid, footer.navbar-inverse {
-  background-color: rgb(77, 126, 126);
+  background-color: rgba(35, 63, 107, 0.5);
   color: white;
 }
 .image-masthead .background-container-gradient {
@@ -11,35 +11,43 @@
   padding: 0px;
 }
 footer.navbar p, .image-masthead .navbar .navbar-nav a {
-  color: white,
+  color: white;
 }
 
 // Buttons
 a.btn-primary, button.btn-primary,  {
-  background-color: #DF8C3E;
-  border-color: #DF8C3E;
+  background-color: #D9853B;
+  border-color: #D9853B;
 }
 a.btn-primary:hover, button.btn-primary:hover {
-  background-color: rgba(223, 140, 62, 0.8);
-  border-color: rgba(223, 140, 62, 0.8);
+  color: white;
+  background-color: rgb(237, 193, 154);
+  border-color: rgb(237, 193, 154);
 }
 
 // Body links
 .nav-tabs > li > a {
-  color: #DF8C3E;
+  color: #D9853B;
 }
 .nav > li > a:hover, .nav > li > a:focus {
-  text-decoration: none;
-  background-color: rgba(236, 215, 197, 0.5);
+  background-color: rgba(217, 133, 59, 0.4);
+  color: white;
 }
+
+a.dropdown-toggle .open {
+  background-color: red;
+  color: red;
+}
+
+
 
 // Body button
 .btn-default {
   color: #DF8C3E;
 }
 .btn-default:hover {
-  color: #DF8C3E;
-  background-color: rgba(236, 215, 197, 0.5);
+  color: white;
+  background-color: rgb(237, 193, 154);
 }
 
 
