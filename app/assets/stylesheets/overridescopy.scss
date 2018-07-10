@@ -1,57 +1,24 @@
-footer.navbar-inverse {
+.container-fluid, footer.navbar-inverse {
   background-color: rgba(35, 63, 107, 0.5);
   color: white;
+  width: 100%;
 }
-// .image-masthead .background-container-gradient {
-//   background: linear-gradient(transparent, rgba(255, 255, 255, 0.4), rgba(255, 255, 255, 0.5));
-// }
-
-.container-fluid, .navbar-inverse {
-  background-color: green;
-}
-
 .image-masthead .background-container-gradient {
-  background-image: url('https://images.unsplash.com/photo-1513646623882-cd31b1e88f39?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=e44bcf184393a92a96d8ab895c492946&auto=format&fit=crop&w=2785&q=80');
-  background-position: bottom;
-  background-size: cover;
-  height: 400px;
+  background: linear-gradient(transparent, rgba(255, 255, 255, 0.4), rgba(255, 255, 255, 0.5));
 }
-.image-masthead .navbar {
-  margin-top: 280px;
-}
-// .navbar-collapse {
-//   background-color: blue;
-//   // width: 90vh;
-// }
-
-
-
-
 .site-footer {
   height: 80px;
+  position: fixed;
   padding: 0px;
 }
 footer.navbar p, .image-masthead .navbar .navbar-nav a {
   color: white;
 }
 
-// Share Work Button
-a.btn-primary {
+// Buttons
+a.btn-primary, button.btn-primary,  {
   background-color: #D9853B;
   border-color: #D9853B;
-}
-.home_share_work {
-
-  p {
-    margin: 0.25em auto;
-    width: 80%;
-  }
-}
-
-
-// Search Bar Button
-button.btn-primary {
-  background-color: blue;
 }
 a.btn-primary:hover, button.btn-primary:hover {
   color: white;
@@ -73,6 +40,8 @@ a.dropdown-toggle .open {
   color: red;
 }
 
+
+
 // Body button
 .btn-default {
   color: #DF8C3E;
@@ -81,6 +50,8 @@ a.dropdown-toggle .open {
   color: white;
   background-color: rgb(237, 193, 154);
 }
+
+
 
 
 
@@ -113,6 +84,12 @@ a.dropdown-toggle .open {
 //   border-top-left-radius: 4px;
 //   border-bottom-left-radius: 4px;
 // }
+
+
+
+
+
+
 
 // Background color and image options
 // .image-masthead .background-container-gradient {
